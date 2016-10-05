@@ -1,0 +1,176 @@
+body
+{
+	direction:rtl;
+	color: #565656;
+		overflow-x: hidden;
+}
+h3
+{
+
+}
+.ycontainer
+{
+    margin: 0;
+	padding:0;
+    width: 100%;
+	overflow-x: hidden;
+}
+.yheader 
+{
+	
+
+}
+
+.ymenu 
+{
+
+}
+.ylogo 
+{
+	text-align:center;
+
+}
+.ylogo img
+{
+    margin: 0 auto;
+	padding: 30px;
+   
+}
+
+.ymenu li a
+{
+	font-size: 20px;
+	/*color: #FFFFFF;
+	text-shadow: 0px 0px 2px #565656;*/
+    color: white;
+    text-shadow: 0px 0px 2px #FFFFFF;
+}
+
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(238, 238, 238, 0) !important;
+}
+.ytop_nav
+{
+    text-align: center;
+    float: none;
+    background: #FC9925;
+	border: 1px solid #C3C3C3;
+}
+
+.ymenu li 
+{
+    display: inline-block;
+    float: none;
+}
+
+.ymain
+{
+	
+    margin-bottom: 40px;
+}
+.cource_desc 
+{
+	padding-top:40px;
+	padding-bottom:40px;
+    background: #F9F9F9;
+    min-height: 255px;
+}
+.cource_desc p 
+{
+	font-size:15px;
+}
+.cource_desc  p ,.ycolapse .panel-body,.basic_cource p,#why_you
+{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.basic_cource p
+{
+    text-align: center;
+    padding: 25px;
+}
+.ywhite
+{
+    background: white;
+    color: black;
+}
+.ycolapse .panel-title a
+{
+    width: 100%;
+    display: block;
+}
+.center,.ycolapse .panel-title,.cource_desc h2,h2
+{
+    text-align: center;
+}
+
+#how_works p 
+{
+    width: 500px;
+    margin: 0 auto;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.yfooter
+{
+    background: #272727;
+    border-top: 1px solid #929292;
+    color: white;
+	padding: 20px;
+}
+.yfooter form p
+{
+padding: 5px 0px;
+text-align:center;
+    font-size: 16px;
+}
+.yfooter form input,.yfooter form textarea
+{
+	width: 300px;
+	color:#292929;
+	margin-bottom: 20px;
+	border: 2px solid #797979;
+    border-radius: 5px;
+}
+	
+	    
+}
+.yfooter form textarea
+{
+}
+.conntact_form
+{
+    width: 300px;
+	margin:0 auto;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover 
+{
+background:white !important;
+}
+@media (min-width: 980px) and (max-width: 1199px)
+{
+	
+
+
+}
+
+
+
+@media only screen and (max-width:620px)and (min-width: 200px)
+{
+	.ylogo img 
+	{
+		margin: 0 auto;
+	}
+	.ymenu
+	{
+		text-align:center;
+	}
+	
+	.cource_desc  p ,#why_you{padding:25px;}
+	 p {max-width: 290px;}
+	
+}
+
