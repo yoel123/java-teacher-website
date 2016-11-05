@@ -1,0 +1,71 @@
+body
+{
+	direction:rtl;
+	color: #545454;
+}
+h1,h2
+{
+	text-align: center;
+	margin:0;
+    padding: 20px 0;
+	color: white;
+}
+
+h3
+{
+	color:#3A3A3A;
+}
+
+.container
+{
+	padding:0;
+}
+.yheader,.yfooter
+{
+    background: #293949;
+	color: white;
+	
+}
+.ybillboard
+{
+	background:#1BBC9B;
+	padding: 40px;
+	margin-bottom:30px;
+}
+
+
+.yboard img
+{
+	height: 400px;
+	padding:5px;
+	background:white;
+}
+
+.yform
+{
+	background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.ycol
+{
+	margin-top: 30px;
+}
+
+.top_img
+{
+	width: 200px;
+    height: 200px;
+}
+
+.yfooter
+{
+    padding: 20px;
+	margin-top: 20px;
+}
+.ycenter
+{
+	display:block;
+	margin:0 auto;
+}
