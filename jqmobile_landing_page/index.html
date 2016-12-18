@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>בניית דפי נחיתה</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery.js"></script>
+        <script src="lib/jquery.mobile-1.4.0-rc.1.js"></script>
+       
+       
+	   
+        <link rel="stylesheet" type="text/css" href="src/css/jquery.mobile.flatui.css" />
+        <script >
+			
+            $( document ).ready(function() {
+				var otherDate = new Date("2016-12-26");
+				var today = new Date();
+				var isToday = (today > otherDate);
+				if(isToday)
+				{
+					//alert(123);
+					$(".mivtza").hide();
+				}
+            });//end dom_ready
+         
+
+        </script>
+
+    </head>
+    
+    <body>
+		<!--
+		pages:
+		main_menu
+		cost_page
+		-->
+	
+
+		
+		<div data-role="page" id="main_menu">
+            <div data-role="header" data-position="fixed">
+			<img class="ycenter ylogo" src="imgs/logo.png"/>
+                	<h1>בניית דף נחיתה במחיר הכרות מטורף החל מ350שח</h1>
+            </div>
+		
+            <div data-role="content">
+				<span class="ywerning mivtza" data-theme="d" >
+מבצע ל5 פונים הראשונים דף נחיתה עם עיצוב מנמאלי ומערכת ניהול תוכן ב380שח במקום 550שח
+</span>
+                <a data-role="button" id = "cost_link" href="#cost_page" data-icon="" data-theme="a">כמה זה עולה?</a>
+                <a data-role="button" id = "how_woks_link" href="#how_woks_page" data-icon="" data-theme="a">איך זה עובד?</a>
+                <a data-role="button" id = "how_we_woks_link" href="#how_we_woks_page" data-icon="" data-theme="b">עם מי אנחנו רוצים לעבוד?</a>
+                <a data-role="button" id = "need_wp_link" href="#need_wp" data-icon="" data-theme="d">אני צריך אתר תדמית עם וורדפרס</a>
+                <a data-role="button" id = "need_wp_link" href="#conntact_us" data-icon="" data-theme="f">צור קשר</a>
+   
+            </div>
+          
+        </div><!--end main_menu-->
+		<!--end   <div data-role="footer" data-position="fixed">
+                <h1>Footer</h1>
+            </div>-->
+
+		
+		<!--cost_page-->
+		<div data-role="dialog" id="cost_page" data-theme="a">
+			 <div data-role="header" data-position="fixed">
+                <h1>כמה זה עולה?</h1>
+            </div>
+			 <div data-role="content">
+              				<span class="ywerning mivtza" data-theme="d" >
+מבצע ל5 פונים הראשונים דף נחיתה עם עיצוב מנמאלי ומערכת ניהול תוכן ב380שח במקום 550שח
+</span>
+			   <ul data-role="" class="">
+					<li class="">
+					דף נחיתה מעיצוב מוכן סטאטי(בלי מערכת ניהול תוכן בלי התאמה של מבנה תוכן)
+					<b>
+					350שח
+					</b>
+					</li>
+					<li class="">
+					דף נחיתה סטאטי עם עיצוב מנמאלי(בלי מערכת ניהול תוכן)
+					<b>
+					450שח
+					</b>
+					</li>
+					<li class="">
+					דף נחיתה עם עיצוב מנמאלי ומערכת ניהול תוכן 
+					<b>
+					 550שח
+					</b>
+					</li>
+			   </ul>
+			   <h2>
+			   תוספות:
+			   </h2>
+			   <ul data-role="" class="">
+					
+					<li class="">
+					דף נוסף
+					<b>
+					80שח
+					</b>
+					</li>		
+					<li class="">
+					הטמעת סרטון בדף
+					<b>
+					80שח
+					</b>
+					</li>		
+					<li class="">
+					הוספת גלריית תמונות\סליידר תמונות 
+					<b>
+					100שח
+					</b>
+					</li>		
+					<li class="">
+					הקמת דף פיסבוק
+					<b>
+					100שח
+					</b>
+					</li>		
+					<li class="">
+					יעוץ פרסום ברשתות חברתיות מנמאלי 
+					<b>
+					200שח
+					</b>
+					</li>		
+					<li class="">
+					ניהול קמפיין פרסום קטן בפיסבוק 
+					<b>
+					400שח+
+					</b>
+					</li>		
+					<li class="">
+					חיבור לגוגל אנליטיקס
+					<b>
+					100שח
+					</b>
+					</li>
+			   </ul>
+			   <p>
+			   עדכון תוכן דף נחיתה 50שח
+			   </p>
+			    <p>
+				לפרטים נוספים אפשר לפנות אלינו דרך הטופס צור קשר
+			   </p>
+			      <a data-role="button" id = "need_wp_link" href="#conntact_us" data-icon="" data-theme="f">צור קשר</a>
+   
+			</div>
+        </div><!--end cost_page-->
+		
+			<!--how_woks_page-->
+		<div data-role="dialog" id="how_woks_page" data-theme="a">
+			 <div data-role="header" data-position="fixed">
+                <h1>איך זה עובד?</h1>
+            </div>
+			 <div data-role="content">
+			  </ul>
+			 	<li>
+				קבלת התשלום הראשוני (חצי מהמחיר)
+			 	</li>
+			 	<li>
+				הלקוח ישלח את התוכן (טקסט ותמונות).
+			 	</li>
+			 	<li>
+				התוכן יוזן לאתר.
+			 	</li>
+			 	<li>
+				האתר יעלה לשרת .
+			 	</li>
+			 	<li>
+				האתר יקושר לדומיין (הכתובת).
+			 	</li>
+			 	<li>
+				תשלום סופי (שארית התשלום).
+			 	</li>
+			   </ul>
+			   <p>
+			   כול התהליך לא אמור לקחת יותר מכמה ימים(מקסימום שבוע).
+עיכובים ומריחה לא סבירים יבטלו את הפרויקט והכסף יוחזר ללקוח,אנחנו לא
+מבזבזים זמן על שטויות.
+העיכובים המדוברים לא כוללים עיכובים תכניים מצד חברת האכסון שרת או דומיין.
+			   </p>
+			      <a data-role="button" id = "need_wp_link" href="#conntact_us" data-icon="" data-theme="f">צור קשר</a>
+   
+			 </div>
+        </div><!--end how_woks_page-->
+		
+		<!--how_we_woks_page-->
+		<div data-role="dialog" id="how_we_woks_page" data-theme="b">
+			 <div data-role="header" data-position="fixed">
+                <h1>עם מי אנחנו רוצים לעבוד?</h1>
+            </div>
+			 <div data-role="content">
+			 <p>
+			 
+דוגרי? עם אנשים שלא יתבחבשו איתנו על שטויות ורוצים תכלס תוצאות.
+האנשים שאנחנו רוצים לעבוד איתם צריכים להיות אנשים רצניים שיודעים מה שהם רוצים ומה שהם יקבלו.
+אנחנו מצעים כמה מוצרים מוגמרים כמו שהם בלי שנויים. בלי למרוח את הזמן .
+אנחנו רוצים לקבל תוכן מלקוח ולהזין אותו לאתר ולהעלות אותו תוך יום יומיים.
+אנחנו לא רוצים לעבוד חודש על אתר של עמוד אחד.זה לא הגיוני או סביר ובטח שלא במחירים שהצענו.
+אנחנו מחפשים לקוחות שרוצים לפרסם מוצר או שרות באינטרנט עם דף נחיתה.
+אם מדובר בלקוח שלא פירסם באינטרנט מעולם אנחנו ננחה ונדריך אותו (בתשלום) לאופציות הקימות (פרסום בפיסבוק וגוגל בעיקר). 
+			 </p>
+			    <a data-role="button" id = "need_wp_link" href="#conntact_us" data-icon="" data-theme="f">צור קשר</a>
+   
+			 </div>
+        </div><!--end how_we_woks_page-->
+	
+			<!--need_wp-->
+		<div data-role="dialog" id="need_wp" data-theme="d">
+			 <div data-role="header" data-position="fixed">
+                <h1>
+אני צריך אתר תדמית עם וורדפרס</h1>
+            </div>
+			 <div data-role="content">
+			 <p>
+			 
+זה מוצר שונה עם מחיר אחר,נשמח לתת לך פרטים נוספים בפרטי.
+	 </p>
+	    <a data-role="button" id = "need_wp_link" href="#conntact_us" data-icon="" data-theme="f">צור קשר</a>
+   
+			 </div>
+        </div><!--end need_wp-->
+		
+		<!--conntact_us-->
+		<div data-role="dialog" id="conntact_us" data-theme="f">
+			 <div data-role="header" data-position="fixed">
+                <h1>צור קשר</h1>
+            </div>
+			 <div data-role="content">
+		<form action="https://formspree.io/yoel12344@walla.co.il"
+					  method="POST">
+					 <p>שם</p>
+					<input type="text" name="name"></br>
+					<p>מייל(דואר אלקטרוני)</p>
+					<input type="email" name="_replyto"></br>
+					<p>פרטים</p>
+					<textarea name="contant">
+					</textarea></br>
+					<input class = "btn btn-default" type="submit" value="שלח">
+				</form>
+			 </div>
+        </div><!--end conntact_us-->
+    </body>
+
+</html>
