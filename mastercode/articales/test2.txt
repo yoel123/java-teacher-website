@@ -1,0 +1,6 @@
+<h2 class="ycenter">
+article test 2
+</h2>
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CdYaNeU9iOo" frameborder="0" allowfullscreen></iframe>
+</p>
