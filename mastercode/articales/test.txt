@@ -1,6 +1,11 @@
+
 <h2 class="ycenter">
 article test 1
 </h2>
 <p>
 jorge grh hahj hjaejh haejjt ajhje
 </p>
+
+
+<div class="fb-comments" data-href="http://localhost:8080/mastercode/#test" data-width="300" data-numposts="5"></div>
+<script type="text/javascript"> FB.XFBML.parse(); </script> 

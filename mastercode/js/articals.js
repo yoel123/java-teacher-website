@@ -7,7 +7,8 @@ $( document ).ready(function() {
 function click_load(selector,target)
 {
 	  $(document).on( "click", selector,function(event) {
-		   data =$(this).attr("ydata") 
+		   data =$(this).attr("ydata") ;
+		   $(target).html("<img src='img/loading.gif' alt='loading...' />");
            $(target).load(data+".txt").hide().fadeIn();
 		    event.preventDefault();
 			return;	
