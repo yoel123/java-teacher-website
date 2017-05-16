@@ -1,0 +1,112 @@
+body
+{
+      background: white
+}
+h1
+{
+font-size: 60px;
+}
+h2
+{
+font-size: 30px;
+}
+h1,h2
+{
+    
+   color:#D1C596;
+}
+
+hr{margin: 50px 0;}
+
+.ycontainer
+{
+    margin: 0;
+	padding:0;
+    width: 100%;
+	overflow-x: hidden;
+	    background: #2A4722;
+   
+}
+.yheader
+{
+	background: url("../img/koala.png");
+	padding: 80px 40px;
+	background-repeat: no-repeat;
+	height:600px;
+	width: 95%;
+    margin: 0 auto;
+	background-size: 100% 600px;
+	margin-bottom: 35px;
+}
+.yfiller
+{
+padding:10px;
+margin-bottom:20px;
+background:#D1C596;
+}
+.yheader img
+{
+height: 135px;
+}
+.ycontent
+{
+	background:#D1C596;
+	color: #2A4722;
+	padding: 100px 60px;
+}
+.ybtn
+{
+	width:100%;
+}
+
+.lightbox
+{
+	position:fixed; /* keeps the lightbox window in the current viewport */
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	
+    background: rgba(255, 255, 255, 0.87);
+    display: block;
+    padding: 20px;
+	padding-top: 54px;
+	z-index: 99999;
+}
+.lightbox  p, .lightbox div
+{
+	background:white;
+}
+.lightbox .inner
+{
+	padding:15px;
+	max-height:620px;
+	overflow:scroll;
+	overflow-x: hidden;
+	width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #D4D4D4;
+}
+@media (min-width: 980px) and (max-width: 1199px)
+{
+	
+
+
+}
+
+
+
+@media only screen and (max-width:620px)and (min-width: 200px)
+{
+
+	.lightbox .inner
+	{
+		max-height:500px;
+		overflow:scroll;
+		width: 100% !important;
+		margin: 0 auto;
+	}
+	
+}
+
